@@ -1,0 +1,30 @@
+section {
+    display: -webkit-flex;
+    display: flex;
+    background-color: (rgb(255, 166, 0),green);
+    height: 100vh;
+}
+
+    
+
+    nav {
+        -webkit-flex: 5;
+        -ms-flex: 5;
+        flex: 5;
+        background: linear-gradient(rgb(0, 174, 255),rgb(0, 255, 98)) ;
+        padding: 100px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 50;
+      }
+
+      article {
+        -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+        background: linear-gradient(red,blue);
+        padding: 10px;
+      }
+      
